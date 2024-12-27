@@ -1,4 +1,7 @@
 [build]
-  base = "./"                          # Define the base directory (where the project is located)
-  publish = "./"  # Directory where the built Angular app is located
-  command = "ng build"          # Build command for Angular
+  publish = "dist/anglify"
+  command = "ng build --prod"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
