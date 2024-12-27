@@ -1,4 +1,4 @@
 [build]
   base = "./"                          # Define the base directory (where the project is located)
   publish = "./"  # Directory where the built Angular app is located
-  command = "ng serve"          # Build command for Angular
+  command = "ng build"          # Build command for Angular
