@@ -1,9 +1,4 @@
 [build]
   base = "./"                          # Define the base directory (where the project is located)
   publish = "./"  # Directory where the built Angular app is located
-  command = "ng build --prod"          # Build command for Angular
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+  command = "ng serve"          # Build command for Angular
